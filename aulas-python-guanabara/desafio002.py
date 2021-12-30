@@ -1,0 +1,6 @@
+print('=====Desafio 002=====')
+nome = input('Qual seu nome? ') 
+dia = input('Dia = ')
+mes = input('Mês = ')
+ano = input('Ano = ')
+print('Olá!',nome+',','você nasceu no dia',dia,'de',mes,'de',ano+'.','Correto?')
