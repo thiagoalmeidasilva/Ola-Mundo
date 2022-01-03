@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercício 003</title>
+    <style>
+        body { background-color: rgb(171, 171, 184);
+        color:blue; /*Cometário em CSS*/
+        font: normal 20pt Arial;
+    }
+    h1 {
+        color: yellow;
+    }
+        
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!-- Comentário em HTML-->
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        /* Comentário em CSS - Nessa parte do código, se incia a programação de JavaScript, dentro da tag <script>*/ 
+          
+        var n1 = Number(window.prompt('Digite o primeiro número: ')) // window.prompt => envia dados 'string' //
+        var n2 = Number(prompt('Digite o segundo número: '))
+        var s = n1 + n2 // será necessário converter dado string para número //
+        window.alert(`A soma dos valores: ${n1} e ${n2} é igual a ${s}`) 
+        /* '+' => serve para adição e concatenação*/
+        /* Number => o programa decide, de acordo com dado recebido se é numero inteiro ou não */        
+    </script>
+
+    <h2>Formatando Strings</h2>
+    <p>var s = 'JavaScript'</p>
+    <p>'Eu estou aprendendo s' ---- não faz interpolação</p>
+    <p>'Eu estou aprendendo' + s ---- usa a concanetação</p>
+    <p>`Eu estou aprendendo ${s} ---- usa template string</p>
+
+    <p>s.length ---- quantos caracteres a string tem</p>
+    <p>s.tuUpperCase() ---- tudo para letras 'MAIÚSCULAS'</p>
+    <p>s.toLowerCase() ---- tudo para letras 'minúsculas'</p>
+
+</body>
+</html>

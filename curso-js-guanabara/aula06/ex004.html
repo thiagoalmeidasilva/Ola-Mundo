@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_2.ico" type="image/x-icon">
+    <title>Exercício 004</title>
+    <style>
+        body { background-color: rgb(171, 171, 184);
+        color:blue; /*Cometário em CSS*/
+        font: normal 20pt Arial;
+    }
+    h1 {
+        color: yellow;
+    }
+        
+    </style>
+</head>
+<body>
+    <h1>Exercício n.º 004, aula de JavaScript</h1>
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá <strong>${nome}</strong>. Seu nome tem ${nome.length} letras.<br/>`) /* <br/> quebra alinha */
+        document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()}.<br/>`)
+        document.write(`Seu nome em letras minúsculas é ${nome.toLocaleLowerCase()}.`)
+
+
+    </script>
+    
+</body>
+</html>

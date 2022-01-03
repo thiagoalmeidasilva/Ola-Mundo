@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Aula 04 - Curso JS</title>
+    <style>
+        body { background-color: rgb(171, 171, 184);
+        color:blue; /*Cometário em CSS*/
+        font: normal 20pt Arial;
+    }
+    h1 {
+        color: yellow;
+    }
+        
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!-- Comentário em HTML-->
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        /* Comentário em CSS - Nessa parte do código, se incia a programação de JavaScript, dentro da tag <script>*/ 
+       
+        var nome = window.prompt('Qual é o seu nome?')
+        window.alert('É um grande prazer em te conhecer, '+ nome + '!') // Concanetação //
+
+        var n1 = window.prompt('Digite o primeiro número: ') // window.prompt => envia dados 'string' //
+        var n2 = window.prompt('Digite o segundo número: ')
+        var s = n1 + n2 // será necessário converter dado string para número //
+        window.alert('A soma dos valores é ' + s + '.') // '+' => serve para adição e concatenação//
+        window.alert('Apareceu o valor de ' + s + ', porque não houve a conversão do dado tipo string para número.')
+
+        var n1 = Number.parseInt(window.prompt('Digite o primeiro número: ')) // window.prompt => envia dados 'string' //
+        var n2 = Number.parseInt(prompt('Digite o segundo número: '))
+        var s = n1 + n2 // será necessário converter dado string para número //
+        window.alert('A soma dos valores é ' + s + '.') // '+' => serve para adição e concatenação//
+        window.alert('Apareceu o valor de ' + s + ', porque está convertido o dado tipo string para número.')
+
+    </script>
+</body>
+</html>
