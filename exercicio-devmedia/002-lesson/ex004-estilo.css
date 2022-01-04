@@ -1,0 +1,31 @@
+h1 {
+    font-size: 51px;
+    font-family: Arial;
+    font-weight: 1000;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Verdana;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+div {
+    background-color: blue;
+}
+
+p {
+    font-size: 18px;
+    font-family: Tahoma;
+    text-align: justify;
+    color: white;
+}
+
+a {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
