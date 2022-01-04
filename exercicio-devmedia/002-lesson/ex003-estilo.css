@@ -1,0 +1,31 @@
+h1 {
+    font-size: 55px;
+    color: rgb(5, 76, 148); /* cor da letra do texto */
+    background-color: gray; /* cor de fundo do texto */
+    text-align: center; /* define o alinhamento do text */
+    text-decoration: underline; /* adiciona linhas ao texto */
+    font-family: Arial, Helvetica, sans-serif; /* define a fonte do texto */
+    font-weight: 800; /* espessura mais grossa da letra */
+    
+}
+
+p {
+    font-size: 25px;
+    font-family: comic sans MS;
+    color: rgb(3, 46, 3);
+    background-color: rgb(230, 230, 176);
+    text-align: justify;
+    line-height: 48px; /* espaçamento entre as linhas do texto */ 
+}
+
+a {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic; /* deixar em ítalico o texto */
+    color: white;
+    background-color: blue;
+}
+
+span {
+    font-weight: bold;
+}

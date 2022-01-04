@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_2.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+    <style>
+        body { background-color: rgb(171, 171, 184);
+        color:blue;
+        font: normal 14pt Arial;
+    }
+    h1 {
+        color: yellow;
+    }
+        
+    </style>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a>, do Porf. Gustavo Guanabara.</p>
+    <p>Você também pode acessar o <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito do YouTube</a>, do Prof. Gustavo Guanabara.</p>
+
+    <h1>Usando links internos</h1>
+    <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pg002.html" target="_self" rel="next">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pg003.html" target="_self" rel="next">página de notícias.</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/10-ligacoes-em-toda-parte.pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/10-ligacoes-em-toda-parte.zip">Baixar o livro compactado em ZIP</a></li>
+    </ul>
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Vem falar com a gente</p>
+
+        <div>
+            <img src="tel.png" alt="Telefone">
+            <p><a href="tel:66777777777"> (66) 77777-7777</a></p>
+        </div>
+
+        <div>
+            <img src="mail.png" alt="E-mail">
+            <p><a href="mailto:contato@thiagodeveloper.test.com">contato@thiagodeveloper.test.com</a></p>
+        </div>
+
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Desenvolvido por THIAGO</p>
+        </footer>
+    </section>  
+
+    <style>
+         /*contato*/  
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p {
+        width: 100%;
+    }
+
+    #contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    }
+
+    #contato h2 {
+    color: #000000;
+    }
+
+
+    </style>
+
+    
+</body>
+</html>

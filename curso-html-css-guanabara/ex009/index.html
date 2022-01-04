@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Trade-ico.ico" type="image/x-icon">
     <title>Listas</title>
+    <style>
+        body { background-color: rgb(171, 171, 184);
+        color:blue;
+        font: normal 14pt Arial;
+    }
+    h1 {
+        color: yellow;
+    }
+        
+    </style>
 </head>
 <body>
     <h1>Trabalhando com listas</h1>
@@ -114,5 +124,145 @@
         <li>Arroz</li>
         <li>Feijão</li>
     </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortan</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>javascript</li>
+            <li>Kotlin</li>
+        </ol>      
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ol>
+            <li>Mario Bros</li>
+            <li>Ninja Gaiden</li>
+        </ol>
+        <li>SNES</li>
+        <ol>
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ol>
+        <li>PlayAtation</li>
+        <ol>
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ol>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario Bros</li>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul>
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayAtation</li>
+        <ul>
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayAtation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+            <ul type="circle">
+                <li>Ninja Gaiden 3 - teste</li>
+                <li>Ninja Gaiden 3-b - teste</li>
+            </ul>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayAtation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição do Termo</dd>
+    </dl>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de  marcação para a criação do design de um site</dd>
+        <dt>JavaScritp</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Vem falar com a gente</p>
+
+        <div>
+            <img src="tel.png" alt="Telefone">
+            <p><a href="tel:66777777777"> (66) 77777-7777</a></p>
+        </div>
+
+        <div>
+            <img src="mail.png" alt="E-mail">
+            <p><a href="mailto:contato@thiagodeveloper.test.com">contato@thiagodeveloper.test.com</a></p>
+        </div>
+
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Desenvolvido por THIAGO</p>
+        </footer>
+    </section>      
+
+
 </body>
 </html>
