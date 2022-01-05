@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+div {
+    width: 500px;
+    margin: 30px auto;
+
+}
+
+h1 {
+    font-size: 28px;
+    font-family: Verdana;
+    color: white;
+}
+
+img {
+    width: 500px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #009200;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: justify;
+    color: #ffffff;
+}
+
+span {
+    font-size: 18px;
+    font-family: Verdana;
+    color: #ffffff;
+    border-left: 3px solid #009200;
+    border-bottom: 3px solid #009200;       
+}

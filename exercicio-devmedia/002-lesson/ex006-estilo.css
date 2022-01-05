@@ -79,3 +79,26 @@ p {
     background-color: rgb(181, 185, 194);
 }
 
+#text004 p {
+    width: 600px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+#text004 a {
+    font-size: 18px;
+    font-family: Verdana;
+    text-decoration: none;
+    background-color: brown;
+    color: chartreuse;    
+}
+
+#text004 a {
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkblue;
+}
+
+
+
