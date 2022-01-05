@@ -1,0 +1,81 @@
+#text001 h1 {
+    color: blue;
+    background-color: bisque;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    font-size: 25px;
+    color: red;
+}
+
+#text002 h1 {
+    font-size: 80px;
+    font-family: Courier New; 
+    text-align: center;
+    color: green;
+}
+
+#text002 p {
+    font-size: 25px;
+    font-family: Verdana;
+    color: indigo;
+}
+
+#text002 a {
+    font-size: 25px;
+    color: white;
+    background-color: green;
+    margin: 50px;
+}
+
+#text003 div {
+    background-color: antiquewhite;
+}
+
+#text003 h1 {
+    font-size: 55px;
+    font-family: Tahoma;
+    color: grey;
+    text-align: center;
+}
+
+#text003 h2 {
+    font-size: 25px;
+    font-family: Tahoma;
+    color: hotpink;
+}
+
+#text003 p {
+    font-size: 20px;
+    font-family: Arial;
+    color: olive;
+}
+
+#text003 a {
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    background-color: purple;
+    margin: 50px;    
+}
+
+#text004 h1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: darkblue;
+}
+
+#text004 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: cursive;
+    text-align: justify;
+    background-color: rgb(181, 185, 194);
+}
+

@@ -14,7 +14,7 @@ p {
     font-family: comic sans MS;
     color: rgb(3, 46, 3);
     background-color: rgb(230, 230, 176);
-    text-align: justify;
+    text-align: center;
     line-height: 48px; /* espaçamento entre as linhas do texto */ 
 }
 
